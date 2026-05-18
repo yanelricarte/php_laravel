@@ -24,6 +24,7 @@ class PageController extends Controller
     {
         $titulo = 'Contacto';
         $mensaje = 'Bienvenido a la página de contacto desde la vista';
-        return view('contacto', compact('titulo', 'mensaje'));
+        $datos = ['Correo: contacto@ejemplo.com', 'Teléfono: 123-456-7890', 'Dirección: Calle Falsa 123'];
+        return view('contacto', compact('titulo', 'mensaje', 'datos'));
     }
 }
