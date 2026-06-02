@@ -2,7 +2,8 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>@yield('title') - Blog Laravel</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@yield('title') - Sitio web con Laravel</title>
 
     <style>
         body {
@@ -67,7 +68,7 @@
 <body>
 
     <header>
-        <h1>Blog Laravel</h1>
+        <h1>Sitio web con Laravel</h1>
         <p>Primer proyecto con rutas, controladores y vistas</p>
     </header>
 
